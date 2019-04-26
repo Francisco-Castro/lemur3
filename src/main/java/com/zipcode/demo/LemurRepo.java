@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 @RepositoryRestResource(collectionResourceRel = "lemurs", path = "lemurs")
 public interface LemurRepo extends PagingAndSortingRepository<Lemur, Long> {
-    
+
 }
