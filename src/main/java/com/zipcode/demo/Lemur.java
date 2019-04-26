@@ -12,6 +12,7 @@ public class Lemur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    
     private Integer age;
     private Double weight;
     private String species;
